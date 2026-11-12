@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+int cp,sp;
+scanf("%d %d ",&cp,&sp);
+if(cp>sp)
+{
+printf("Loss:\n%d",(cp-sp));
+}
+else if(cp<sp)
+{
+printf("Profit:\n%d",(sp-cp));
+}
+else{
+printf("Neither loss nor profit\n%d",(cp-sp));
+}
+}
