@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+printf("how many members\n");
+scanf("%d",&ticket);
+if(ticket>=1)
+{
+printf("Allow theatre...");
+}
+else{
+printf("Not allowed\n");
+}
+return 0;
+}
